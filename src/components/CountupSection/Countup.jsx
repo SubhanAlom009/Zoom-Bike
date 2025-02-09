@@ -1,8 +1,8 @@
 import React from 'react'
-import './Countup.css'
 
 import CountUp from "react-countup";
 import { FaMotorcycle, FaUsers, FaCarSide, FaMapMarkedAlt } from "react-icons/fa";
+import './Countup.css';
 
 const stats = [
     { icon: <FaMotorcycle />, value: 50, label: "Available Bike" },
