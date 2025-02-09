@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { LuBike } from "react-icons/lu";
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.webp';
-import './Header.css';
+import './header.css';
 
 import { FaEnvelope, FaPhone, FaClock,FaMapMarkerAlt } from "react-icons/fa";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
