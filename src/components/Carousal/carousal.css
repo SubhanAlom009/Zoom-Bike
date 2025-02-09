@@ -1,0 +1,131 @@
+.carousel-button {
+    /* position: relative; */
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .carousel-button:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+  }
+  
+  .carousel-button svg {
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  .carousel-button:hover svg {
+    transition: all 0.3s ease-in-out;
+    color: #ffd32c;
+    font-size: 20px;
+  }
+
+  .carousel .carousel-item {
+    transition: transform 0.2s ease-in-out !important;
+  }
+
+  .carousel-image-container {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+  }
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for darkness */
+    z-index: 1;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 1 !important;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1 !important; 
+    background: transparent !important;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    z-index: 2;
+    /* background-color: #54d31d; */
+    width: 60%;
+  }
+  
+  .caption-title{
+    color: #72B627;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .caption-text{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 100%;
+  }
+
+  .custom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .rent-now {
+    background-color: #32cd32;
+    color: black;
+    cursor: pointer;
+  }
+
+  .rent-now:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .call-now {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .call-now:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  

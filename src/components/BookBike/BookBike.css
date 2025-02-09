@@ -1,0 +1,71 @@
+.book-bike {
+  background-color: #046d2b; /* Green background */
+  color: white;
+  /* padding: 50px 0; */
+  position: relative;
+  text-align: center;
+  height: 100%;
+}
+
+.checkered-top-border {
+    height: 30px;
+    background: linear-gradient(90deg, #000 50%, #046d2b 50%);
+    background-size: 40px 40px;
+}
+.checkered-bottom-border {
+    height: 30px;
+    background: linear-gradient(90deg, #000 50%, #ffcc00 50%);
+    background-size: 40px 40px;
+}
+
+.book-bike-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 100px 40px;
+}
+
+.book-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.book-description {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-icon {
+  font-size: 2rem;
+}
+
+.contact-number {
+  color: #fff;
+}
+
+.book-button {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 25px;
+  border-radius: 30px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #ffcc00;
+  color: black;
+}

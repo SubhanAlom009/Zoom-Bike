@@ -1,0 +1,90 @@
+.link_hover {
+  color: #000000;
+  transition: 0.3s;
+}
+
+.link_hover:hover {
+  color: #EEB200;
+}
+
+.bike-btn {
+  background-color: #54d31d;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: all 0.3s;
+  gap: 10px;
+}
+
+.bike-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Hide Top Section on Scroll */
+.top-section.hidden {
+  transform: translateY(-100%);
+}
+
+/* Navbar */
+.navbar {
+  transition: top 0.3s ease-in-out;
+}
+
+.navbar.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 75%;
+  max-width: 400px;
+  height: 100%;
+  background: white;
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.5s ease-in-out;
+  z-index: 1100;
+  padding: 20px;
+}
+
+/* Show Sidebar */
+.sidebar.open {
+  right: 0;
+}
+
+/* Sidebar Close Button */
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+/* Sidebar Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: black;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #54d31d;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 992px) {
+  .top-section {
+    display: none; /* Hide top contact section */
+  }
+}

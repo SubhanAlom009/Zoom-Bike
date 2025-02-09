@@ -1,0 +1,97 @@
+.bike-section {
+    background-color: #ffecec;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .bike-availability p {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(transparent 50%, gold 50%);
+    padding: 2px 6px;
+  }
+  
+  .h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin: 0 200px 0 200px;
+  }
+
+  .bike-card {
+    transition: 0.3s ease-in-out;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .bike-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 40px 10px rgba(222, 195, 16, 0.8);
+ 
+  }
+  
+  .bike-details{
+    background-color: white;
+    padding: 10px;
+  }
+
+  .img-content{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .whatsapp-icon {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background-color: #00a210;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .price {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: #32CD32;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .price:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .call-icon {
+    color: black;
+    cursor: pointer;
+    /* background-color: #32CD32; */
+    /* padding: 5px 20px; */
+    border-radius: 10px;
+  }
+  
+  .book-now {
+    background: #32CD32;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .book-now:hover {
+    background-color: black;
+    color: white;
+  }

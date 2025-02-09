@@ -1,0 +1,81 @@
+.about-us-section {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about-image {
+    width: 50%;
+  }
+  
+  .rounded-image {
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .about-content {
+    width: 50%;
+  }
+  
+  .section-title-about {
+    font-weight: bold;
+    color: #6b8e23;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(transparent 50%, gold 50%);
+    text-align: center;
+  }
+  
+  .about-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .highlight {
+    color: green;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .call-now-btn {
+    background-color: #32cd32;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    transition: all.3s ease-in-out;
+  }
+  
+  .call-now-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .call-now-btn svg {
+    font-size: 1.2rem;
+  }
+  
